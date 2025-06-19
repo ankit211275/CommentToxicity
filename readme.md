@@ -27,7 +27,7 @@ This project is a **multi-label text classification** model trained to detect to
 
 4. **Model Architecture**
    - Built using `tf.keras.Sequential`
-   - Likely includes Embedding → Conv1D/LSTM → Dense → Output
+   - Includes Embedding → Bidirectional LSTM → Dropout → Dense → Output
    - Compiled with `binary_crossentropy` for multi-label classification
 
 5. **Training**
