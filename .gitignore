@@ -1,0 +1,34 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter runtime and history
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Dataset and logs
+*.csv
+*.tsv
+*.zip
+*.h5
+*.log
+
+# Virtual environments
+toxicity/
+pyvenv.cfg
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Flagged data
+flagged/
+
+# Hidden files & backups
+*~
